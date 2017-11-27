@@ -1,6 +1,7 @@
 {
   "name": "ELPISAPIWORK",
   "version": "0.0.1",
+  "node":"8.9.1",
   "start": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
