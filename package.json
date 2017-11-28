@@ -1,12 +1,15 @@
 {
   "name": "ELPISAPIWORK",
   "version": "0.0.1",
-  "node":"8.9.1",
+  "node": "8.9.1",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "firebase": "^4.6.2",
+    "mongoose": "^4.13.5",
+    "node-schedule": "^1.2.5",
     "request": "^2.83.0"
   }
 }
