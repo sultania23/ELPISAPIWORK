@@ -88,7 +88,7 @@ var crawlData = function (callback) {
 };
 
 var rule = new schedule.RecurrenceRule();
-rule.hour = 9;
+rule.minute = 58;
 schedule.scheduleJob(rule, function(){
 
     crawlData(); // crawling function for crawling data at 1 A.M everyday.
